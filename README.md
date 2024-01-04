@@ -1,6 +1,11 @@
 
-# simple todo app
+## simple todo app
 
+**live demo:**
+
+    ```shell
+   https://simple-todo-app-tow.surge.sh/
+    ```
 ## How to Start
 
 1. **Clone the repository to your local machine:**
