@@ -1,23 +1,32 @@
-## How to start
-1. Clone the repository to your local machine:
 
-   ```shell
+# simple todo app
+
+## How to Start
+
+1. **Clone the repository to your local machine:**
+
+    ```shell
    git clone https://github.com/your-username/your-project.git
+    ```
 
-2. Navigate to the project's root directory:
+2. **Navigate to the project's root directory:**
 
-  ```shell
-  cd todo
+    ```shell
+    cd todo
+    ```
 
-3. Install the dependencies:
+3. **Install the dependencies:**
 
-  ```shell
-  npm install
+    ```shell
+    npm install
+    ```
 
-4. start project:
+4. **Start the project:**
 
-  ```shell
-  npm run dev
+    ```shell
+    npm run dev
+    ```
+
 
 ## Dependencies
 
