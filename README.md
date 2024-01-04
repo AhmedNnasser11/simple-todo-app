@@ -1,5 +1,5 @@
 
-# Your Project Name
+# Simple Todo app
 
 **Live Demo:**
 
