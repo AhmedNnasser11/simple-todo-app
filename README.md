@@ -4,14 +4,19 @@
    ```shell
    git clone https://github.com/your-username/your-project.git
 
-2. Navigate to the project's root directory: 
+2. Navigate to the project's root directory:
+
+  ```shell
   cd todo
 
 3. Install the dependencies:
+
+  ```shell
   npm install
 
-4. start project: 
+4. start project:
 
+  ```shell
   npm run dev
 
 ## Dependencies
