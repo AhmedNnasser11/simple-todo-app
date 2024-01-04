@@ -1,6 +1,6 @@
 import { MdOutlineClose } from "react-icons/md";
 import { FaRegEdit } from "react-icons/fa";
-import IconButton from "../iconButton";
+import IconButton from "../../components/iconButton";
 import { RowProps } from "../../../types";
 
 

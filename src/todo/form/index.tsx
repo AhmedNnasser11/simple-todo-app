@@ -1,8 +1,8 @@
 /** @format */
 
 import { useEffect, useState } from "react";
-import Radio from "../Radio";
-import Button from "../Button";
+import Radio from "../../components/Radio";
+import Button from "../../components/Button";
 import useStore from "../../store";
 
 const Form = ({ handleOpen }: { handleOpen: () => void }) => {

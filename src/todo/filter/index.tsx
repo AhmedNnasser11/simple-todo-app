@@ -1,7 +1,7 @@
 import React from "react";
-import Button from "../Button";
-import Radio from "../Radio";
-import Drawer from "../drawer";
+import Button from "../../components/Button";
+import Radio from "../../components/Radio";
+import Drawer from "../../components/drawer";
 import useStore from "../../store";
 import Form from "../form";
 import { FilterProps } from "../../../types";

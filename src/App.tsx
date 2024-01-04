@@ -1,9 +1,9 @@
 /** @format */
 
 import { useState } from "react";
-import Filter from "./components/filter";
+import Filter from "./todo/filter";
 import Layout from "./components/layout";
-import List from "./components/list";
+import List from "./todo/list";
 
 function App() {
   const [status, setStatus] = useState("All");
