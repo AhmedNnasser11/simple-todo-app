@@ -28,14 +28,14 @@ const Row: React.FC<RowProps> = ({ item, handleOpen, edit, changeStatus, deleteT
           <MdOutlineClose />
         </IconButton>
         <div className="flex gap-1 items-center">
-          <label className="text-gray-800 text-sm" htmlFor="Completed">
+          <label className="text-gray-800 text-sm" htmlFor={`Completed-${item.id}`}>
             Completed
           </label>
           <input
             type="checkbox"
             onChange={() => changeStatus(item.id)}
             name="Completed"
-            id="Completed"
+            id={`Completed-${item.id}`}
             checked={item.isCompleted === true}
           />
         </div>
