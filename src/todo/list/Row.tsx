@@ -7,7 +7,7 @@ import { RowProps } from "../../../types";
 const Row: React.FC<RowProps> = ({ item, handleOpen, edit, changeStatus, deleteTodo }) => {
   return (
     <div className="flex bg-white text-gray-900 w-[60%] mx-auto px-3 py-2 rounded-md">
-      <div className="w-[33%] px-3 text-center">{item?.text}</div>
+      <div className="w-[33%] px-3">{item?.text}</div>
       <div
         className={`w-[33%] px-3 border-l text-center ${
           item.isCompleted === true ? "text-blue-700" : "text-red-600"
@@ -27,11 +27,12 @@ const Row: React.FC<RowProps> = ({ item, handleOpen, edit, changeStatus, deleteT
         <IconButton onClick={() => deleteTodo(item.id)}>
           <MdOutlineClose />
         </IconButton>
-        <div className="flex gap-1 items-center">
+        <div className="flex gap-1 items-start">
           <label className="text-gray-800 text-sm" htmlFor={`Completed-${item.id}`}>
             Completed
           </label>
           <input
+          className="mt-1"
             type="checkbox"
             onChange={() => changeStatus(item.id)}
             name="Completed"
